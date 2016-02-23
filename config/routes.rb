@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :categories
+  resources :categories
+  resources :categories
+  resources :categories
+  resources :categories
+  resources :categories
+  resources :controllers
   get 'categories/index'
 
   get 'categories/edit'
